@@ -1,0 +1,6 @@
+framework module WebCacheTools {
+  umbrella header "WebCacheTools-umbrella.h"
+
+  export *
+  module * { export * }
+}
