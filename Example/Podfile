@@ -1,0 +1,6 @@
+use_frameworks!
+target 'WebCacheTools_Tests' do
+  pod 'WebCacheTools', :path => '../'
+  
+  
+end
