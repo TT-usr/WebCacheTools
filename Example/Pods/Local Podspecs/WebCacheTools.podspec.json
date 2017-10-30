@@ -1,9 +1,9 @@
 {
   "name": "WebCacheTools",
   "version": "0.1.0",
-  "summary": "A short description of WebCacheTools.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/ytc19930125@gmail.com/WebCacheTools",
+  "summary": "a web cache tools when you use UIWebview",
+  "description": "a web cache tools when you use UIWebview.iOS8+",
+  "homepage": "https://github.com/zichenJack/WebCacheTools",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,16 @@
     "ytc19930125@gmail.com": "yaotiancheng@geekpark.net"
   },
   "source": {
-    "git": "https://github.com/ytc19930125@gmail.com/WebCacheTools.git",
+    "git": "https://github.com/zichenJack/WebCacheTools",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "WebCacheTools/Classes/**/*"
+  "source_files": "WebCacheTools/Classes/**/*",
+  "dependencies": {
+    "YYCache": [
+
+    ]
+  }
 }

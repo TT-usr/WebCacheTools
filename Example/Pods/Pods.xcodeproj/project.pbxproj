@@ -7,103 +7,182 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1BE49FEF0CD0F9AFD5EEEB6A0CBC5023 /* HRLoadHTMLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2495D4AA260AD50A508D251AAE529513 /* HRLoadHTMLCache.m */; };
-		215574347B7C79CE98A0CB03045FFCBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		21F0A2493315A07CB30B16A151D3DE21 /* Pods-WebCacheTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8F90690231AB0188A96CF725B34289 /* Pods-WebCacheTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23DFCB052AC983BEA08283614E7678B6 /* WebCacheTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62307B468BF055756F90258391F00A8C /* WebCacheTools-dummy.m */; };
-		28E121B1FEC43F57BC0A699AA5054676 /* NSURLRequest+HRExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 370266B38B264C2551662A8AC1FDB372 /* NSURLRequest+HRExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		377C89B80C31E9C2FC7C1BC8B19817C3 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F0EEFDFEBE7AF72BC89E1CF04106F5 /* Reachability.m */; };
-		468C05B7C235365F4C4557C0A856A6AF /* HRCacheUrlProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B5F79CA84DE362E2D7B6DB7B00CD76 /* HRCacheUrlProtocol.m */; };
-		69DCA9F2D0614C36A22C2BAE58B39B69 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = CEFA417CF68444EAF86A0D4638492F19 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6DCE0CF84A45FF7DF5C1AF2C01302B45 /* HRWebCacheTools.h in Headers */ = {isa = PBXBuildFile; fileRef = A3DD1E06BD651DEBDAEE9F0ED00829E6 /* HRWebCacheTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72FBE987E1E97F651BD891D810BED1F7 /* NSURLRequest+HRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EFCF7CAA85225BC0C47379A5153AEA51 /* NSURLRequest+HRExtension.m */; };
-		752062033D3B743764666E3084E24A5B /* HRCacheUrlProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = F1CDB8A6990BD05DC4EBF4C2964D1FC8 /* HRCacheUrlProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7696616051C09F466E9E2CCE805B4219 /* HRWebCacheModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE10FB55ABEEEE3CA6C70D3B22729C47 /* HRWebCacheModel.m */; };
-		BF650036DF8D0A6A59134357A0DDE181 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		C3F5AC633E8A3A6D11F466CF7086A4D3 /* HRWebCacheModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 45DF68E7FE29341ACB695C9BDED981D8 /* HRWebCacheModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9513CAD317F34CE59E842D72EEB27EB /* WebCacheTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EA7746D248069C801E19C1C391AA815 /* WebCacheTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E97531E9915F5663EA2B5311A741584F /* Pods-WebCacheTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3902BC2A0FEF7C9EAC1F758417123ED /* Pods-WebCacheTools_Tests-dummy.m */; };
-		FC40B56E5D427A99953F37865DBEFE55 /* HRLoadHTMLCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D321C840D6D8A9CF9D27615F523AF348 /* HRLoadHTMLCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06C69C4213476739D11B7345455D2067 /* Pods-WebCacheTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8F90690231AB0188A96CF725B34289 /* Pods-WebCacheTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CA19757677EB2F3BB8BFFC88A364888 /* YYDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = EFC088DC58AF1F9F9F88E9679D38F25C /* YYDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F4AC7F2B541125AC83F78AC699BFD47 /* Pods-WebCacheTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3902BC2A0FEF7C9EAC1F758417123ED /* Pods-WebCacheTools_Tests-dummy.m */; };
+		14D3DA28C835C1B38F5ACCD73054D16A /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FF4FA85B7646FBA639E62E6DFC564A9 /* CoreFoundation.framework */; };
+		15688AEF48B7F86F922408E0DC5F153C /* NSURLRequest+HRExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 8053AC446A26600274ACB248ABF3E3CA /* NSURLRequest+HRExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26C90952596DDBF5B91F0E500B764286 /* HRLoadHTMLCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4369FDD2B191F6018706A04C1BB721B1 /* HRLoadHTMLCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2720E6087A03CFF3AC5BCBD616F4ABFD /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = A8E5190960A8D0F1B38E1436EA14F954 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2753F497F906A44845CA50558921DB51 /* HRWebCacheModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F9DC9E6169CE1F69BC3D6448D14612C /* HRWebCacheModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3664527901E0DD319B37B4AAF2AA38FC /* HRLoadHTMLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B803B48657EDFDFDF5B918689130083 /* HRLoadHTMLCache.m */; };
+		3DDA506C3736094F434936539F560CDD /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC79E98BADBA7060313928020A42425 /* YYCache.m */; };
+		412D4427909F8B55FB84D806E202D8B4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0655627B063C6DA74336147225EF8861 /* QuartzCore.framework */; };
+		4D17DCB5496FC391D59329F8FD17DFF5 /* YYDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 504BC139CB964FFAC35497DB7C9ADE2E /* YYDiskCache.m */; };
+		593F49611649E92E0C33E46DCD633EFC /* NSString+HRHash.m in Sources */ = {isa = PBXBuildFile; fileRef = F289546C29ECC96624A82B6343159263 /* NSString+HRHash.m */; };
+		5A246245D693077C943D1566EABA4AE7 /* YYCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5800C9002A4514B1E633A83B5CE0E0 /* YYCache-dummy.m */; };
+		5BE409A851F7FE5DE8D3A606782103E2 /* WebCacheTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B148EDA1FA99A05E636426AF0D0C7FA /* WebCacheTools-dummy.m */; };
+		6A882C70F432EA5C2028D7D66BB0FCF4 /* WebCacheTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCE5B9E782A6B56DE1B10B21DE7CE49F /* WebCacheTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FB8FEF2183AB819D5A790219410B50C /* YYCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B7E9C40980F046362D9BE6907EA946F /* YYCache.framework */; };
+		73AACA3DE0881A1DAECFA4477155F9A5 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E036845EDC6BBF4F3D8DE9029CA7973 /* Reachability.m */; };
+		73F72778DD30D7E2623240276EE5E801 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D607BE002C885AC3A1DEA6A1B3BF0E7 /* UIKit.framework */; };
+		79CC0F18D58295BF56C56476B78EF6B8 /* HRWebCacheModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6099243AE9FACD4D9B7332D0C203C62A /* HRWebCacheModel.m */; };
+		80EC11B24E68281401DF847A6541FAC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C444328FC2F73CDDFDF400B99763260 /* Foundation.framework */; };
+		8DFC6B83235856E8E1155830802C5950 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C444328FC2F73CDDFDF400B99763260 /* Foundation.framework */; };
+		99B77B908CCE14F9E381C8F4FB219337 /* NSURLRequest+HRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F84326F9269B029CFA7F6207963EB22 /* NSURLRequest+HRExtension.m */; };
+		9D58CFF9A94ACC25D4282AD5E565C62C /* YYCache-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E535E206512EAF9C00597574A2773CD /* YYCache-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EAC0E152753E17217155CDC5C695E27 /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F39EF79C126DC053F1F592787DFD4C0 /* YYMemoryCache.m */; };
+		9F24328115D737B7D3A188AE3C45F7CB /* YYKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4668CA8D42AB6794BFDE72B702FB23D5 /* YYKVStorage.m */; };
+		A25602ED417F23839E377BD184C3F665 /* HRCacheUrlProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 088D00A562D620C6218C62D55DC42CE3 /* HRCacheUrlProtocol.m */; };
+		A2DAC22ECCA4F5EB3A773F360D368F1D /* NSString+HRHash.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E9874138BCB67E12027925D4A054274 /* NSString+HRHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA34009EAE77909EE7DFF0CC0F7A3612 /* YYCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D955EA0474FAB14CF40489AA5C290631 /* YYCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA6AD0D930297B0DA85898CA9FFCE5FE /* HRWebCacheTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 9808C771B33A77CD984B50F272F33B11 /* HRWebCacheTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D734CEB9780733AC359194C0A77BC16E /* YYMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 16E7AAF0BA935EB5D7D6E568B531C85C /* YYMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1253CF61531195C9549A16364C796A8 /* YYKVStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = E87D5A541B5CB749E15C4FF3BA8A6768 /* YYKVStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3EE8465B94AF4BA4477F4BF1C93CC37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C444328FC2F73CDDFDF400B99763260 /* Foundation.framework */; };
+		FD2625744DCD535C707E9D2B54530B54 /* HRCacheUrlProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D6A827B190EC6967188DF1AE1D34C676 /* HRCacheUrlProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1467FB4EF60AF059912BE19CFEE5659F /* PBXContainerItemProxy */ = {
+		3FECEB737EEFAD817F6C4E3F6E1256CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 487ECAD52EDCB88D029C4C360030B111;
+			remoteGlobalIDString = 67E48A31DA8BD32DE791E01708ED6225;
 			remoteInfo = WebCacheTools;
+		};
+		7F825CD30E39205CEFB31ECD32E1EAF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97048573A64D1761519388ADC50CD959;
+			remoteInfo = YYCache;
+		};
+		FBCCCA478E00DD76A7DA2884009B820B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97048573A64D1761519388ADC50CD959;
+			remoteInfo = YYCache;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0655627B063C6DA74336147225EF8861 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		086DE6ED1B872EE1846D33D561213372 /* Pods-WebCacheTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WebCacheTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2495D4AA260AD50A508D251AAE529513 /* HRLoadHTMLCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HRLoadHTMLCache.m; path = WebCacheTools/Classes/HRLoadHTMLCache.m; sourceTree = "<group>"; };
-		2EA7746D248069C801E19C1C391AA815 /* WebCacheTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WebCacheTools-umbrella.h"; sourceTree = "<group>"; };
-		370266B38B264C2551662A8AC1FDB372 /* NSURLRequest+HRExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLRequest+HRExtension.h"; path = "WebCacheTools/Classes/NSURLRequest+HRExtension.h"; sourceTree = "<group>"; };
-		3BC50DDBBE63D1864E0D80CFC5406750 /* WebCacheTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WebCacheTools.modulemap; sourceTree = "<group>"; };
+		088D00A562D620C6218C62D55DC42CE3 /* HRCacheUrlProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HRCacheUrlProtocol.m; path = WebCacheTools/Classes/HRCacheUrlProtocol.m; sourceTree = "<group>"; };
+		0D607BE002C885AC3A1DEA6A1B3BF0E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		11F25E3453AD65203238748D7DA4073A /* YYCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYCache.framework; path = YYCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16E7AAF0BA935EB5D7D6E568B531C85C /* YYMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYMemoryCache.h; path = YYCache/YYMemoryCache.h; sourceTree = "<group>"; };
+		2561B53BC56CC79F9F48BD9227F665BE /* Pods_WebCacheTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WebCacheTools_Tests.framework; path = "Pods-WebCacheTools_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		290614B10D8467B4A742BB849AC02DAC /* YYCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYCache-prefix.pch"; sourceTree = "<group>"; };
 		3C512232AAEC2EDB91AF3E15ED4B36C3 /* Pods-WebCacheTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WebCacheTools_Tests.modulemap"; sourceTree = "<group>"; };
-		45DF68E7FE29341ACB695C9BDED981D8 /* HRWebCacheModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HRWebCacheModel.h; path = WebCacheTools/Classes/HRWebCacheModel.h; sourceTree = "<group>"; };
+		3F26DA7219011654ACFFB998716E1EAC /* WebCacheTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WebCacheTools-prefix.pch"; sourceTree = "<group>"; };
+		3F39EF79C126DC053F1F592787DFD4C0 /* YYMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYMemoryCache.m; path = YYCache/YYMemoryCache.m; sourceTree = "<group>"; };
+		3F9DC9E6169CE1F69BC3D6448D14612C /* HRWebCacheModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HRWebCacheModel.h; path = WebCacheTools/Classes/HRWebCacheModel.h; sourceTree = "<group>"; };
+		4369FDD2B191F6018706A04C1BB721B1 /* HRLoadHTMLCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HRLoadHTMLCache.h; path = WebCacheTools/Classes/HRLoadHTMLCache.h; sourceTree = "<group>"; };
+		4668CA8D42AB6794BFDE72B702FB23D5 /* YYKVStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYKVStorage.m; path = YYCache/YYKVStorage.m; sourceTree = "<group>"; };
+		4E036845EDC6BBF4F3D8DE9029CA7973 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = WebCacheTools/Classes/Reachability.m; sourceTree = "<group>"; };
 		4F741EB42C643FE66A3CE7CA01856D35 /* Pods-WebCacheTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WebCacheTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		62307B468BF055756F90258391F00A8C /* WebCacheTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WebCacheTools-dummy.m"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		504BC139CB964FFAC35497DB7C9ADE2E /* YYDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYDiskCache.m; path = YYCache/YYDiskCache.m; sourceTree = "<group>"; };
+		5C2B4CA5932B28356E3D566F339F80ED /* WebCacheTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WebCacheTools.modulemap; sourceTree = "<group>"; };
+		5C444328FC2F73CDDFDF400B99763260 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5F498FB9DCD4BEA6809B2442CB3E9001 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6099243AE9FACD4D9B7332D0C203C62A /* HRWebCacheModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HRWebCacheModel.m; path = WebCacheTools/Classes/HRWebCacheModel.m; sourceTree = "<group>"; };
+		6B803B48657EDFDFDF5B918689130083 /* HRLoadHTMLCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HRLoadHTMLCache.m; path = WebCacheTools/Classes/HRLoadHTMLCache.m; sourceTree = "<group>"; };
 		6CC298EE659B2C07C94ADE28828DD321 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		71F0EEFDFEBE7AF72BC89E1CF04106F5 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = WebCacheTools/Classes/Reachability.m; sourceTree = "<group>"; };
-		9212C26402EF69E43900366C0C73D715 /* WebCacheTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WebCacheTools.framework; path = WebCacheTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		924E1C6A226AD143721CF7A8E013CC5D /* WebCacheTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WebCacheTools-prefix.pch"; sourceTree = "<group>"; };
+		6F84326F9269B029CFA7F6207963EB22 /* NSURLRequest+HRExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLRequest+HRExtension.m"; path = "WebCacheTools/Classes/NSURLRequest+HRExtension.m"; sourceTree = "<group>"; };
+		7A5800C9002A4514B1E633A83B5CE0E0 /* YYCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYCache-dummy.m"; sourceTree = "<group>"; };
+		7B148EDA1FA99A05E636426AF0D0C7FA /* WebCacheTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WebCacheTools-dummy.m"; sourceTree = "<group>"; };
+		7FF4FA85B7646FBA639E62E6DFC564A9 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		8053AC446A26600274ACB248ABF3E3CA /* NSURLRequest+HRExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLRequest+HRExtension.h"; path = "WebCacheTools/Classes/NSURLRequest+HRExtension.h"; sourceTree = "<group>"; };
+		814EB9DA1AFD7854041D16460BB4E199 /* YYCache.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YYCache.modulemap; sourceTree = "<group>"; };
+		8AC79E98BADBA7060313928020A42425 /* YYCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYCache.m; path = YYCache/YYCache.m; sourceTree = "<group>"; };
+		8B7E9C40980F046362D9BE6907EA946F /* YYCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E29DE631F2090A0C976742391B982F3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E9874138BCB67E12027925D4A054274 /* NSString+HRHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+HRHash.h"; path = "WebCacheTools/Classes/NSString+HRHash.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9808C771B33A77CD984B50F272F33B11 /* HRWebCacheTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HRWebCacheTools.h; path = WebCacheTools/Classes/HRWebCacheTools.h; sourceTree = "<group>"; };
 		9AB29773449C0E593ED01BEA00EFB6DA /* Pods-WebCacheTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WebCacheTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A3DD1E06BD651DEBDAEE9F0ED00829E6 /* HRWebCacheTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HRWebCacheTools.h; path = WebCacheTools/Classes/HRWebCacheTools.h; sourceTree = "<group>"; };
+		9E535E206512EAF9C00597574A2773CD /* YYCache-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYCache-umbrella.h"; sourceTree = "<group>"; };
+		9FF611DEC6EC25B711E9DFD381AFA1E5 /* WebCacheTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WebCacheTools.framework; path = WebCacheTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8E5190960A8D0F1B38E1436EA14F954 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = WebCacheTools/Classes/Reachability.h; sourceTree = "<group>"; };
 		B25390B097AEF433E73275412685006A /* Pods-WebCacheTools_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WebCacheTools_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B3688E5AB54D3108DCF68F0B474724A8 /* YYCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYCache.xcconfig; sourceTree = "<group>"; };
 		B3902BC2A0FEF7C9EAC1F758417123ED /* Pods-WebCacheTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WebCacheTools_Tests-dummy.m"; sourceTree = "<group>"; };
-		CE10FB55ABEEEE3CA6C70D3B22729C47 /* HRWebCacheModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HRWebCacheModel.m; path = WebCacheTools/Classes/HRWebCacheModel.m; sourceTree = "<group>"; };
-		CEFA417CF68444EAF86A0D4638492F19 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = WebCacheTools/Classes/Reachability.h; sourceTree = "<group>"; };
-		D321C840D6D8A9CF9D27615F523AF348 /* HRLoadHTMLCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HRLoadHTMLCache.h; path = WebCacheTools/Classes/HRLoadHTMLCache.h; sourceTree = "<group>"; };
-		D4B0B857C2BD22D6145D84531A53387C /* WebCacheTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WebCacheTools.xcconfig; sourceTree = "<group>"; };
+		CCE5B9E782A6B56DE1B10B21DE7CE49F /* WebCacheTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WebCacheTools-umbrella.h"; sourceTree = "<group>"; };
+		D6A827B190EC6967188DF1AE1D34C676 /* HRCacheUrlProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HRCacheUrlProtocol.h; path = WebCacheTools/Classes/HRCacheUrlProtocol.h; sourceTree = "<group>"; };
+		D955EA0474FAB14CF40489AA5C290631 /* YYCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYCache.h; path = YYCache/YYCache.h; sourceTree = "<group>"; };
 		DD77DB79E99BD3556836694FF10191EF /* Pods-WebCacheTools_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WebCacheTools_Tests-resources.sh"; sourceTree = "<group>"; };
 		DD8F90690231AB0188A96CF725B34289 /* Pods-WebCacheTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WebCacheTools_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E308B01018C9DA126E81BE6BA827162B /* Pods-WebCacheTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WebCacheTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E8E97904FB603E46F16C816C34F4194E /* Pods_WebCacheTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WebCacheTools_Tests.framework; path = "Pods-WebCacheTools_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EFCF7CAA85225BC0C47379A5153AEA51 /* NSURLRequest+HRExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLRequest+HRExtension.m"; path = "WebCacheTools/Classes/NSURLRequest+HRExtension.m"; sourceTree = "<group>"; };
-		F1CDB8A6990BD05DC4EBF4C2964D1FC8 /* HRCacheUrlProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HRCacheUrlProtocol.h; path = WebCacheTools/Classes/HRCacheUrlProtocol.h; sourceTree = "<group>"; };
-		F3B5F79CA84DE362E2D7B6DB7B00CD76 /* HRCacheUrlProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HRCacheUrlProtocol.m; path = WebCacheTools/Classes/HRCacheUrlProtocol.m; sourceTree = "<group>"; };
-		FF142A6BE686B764634BB4E397896074 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E87D5A541B5CB749E15C4FF3BA8A6768 /* YYKVStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYKVStorage.h; path = YYCache/YYKVStorage.h; sourceTree = "<group>"; };
+		ECA8BF447ABA7A1F6DA574294F26DB09 /* WebCacheTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WebCacheTools.xcconfig; sourceTree = "<group>"; };
+		EFC088DC58AF1F9F9F88E9679D38F25C /* YYDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYDiskCache.h; path = YYCache/YYDiskCache.h; sourceTree = "<group>"; };
+		F289546C29ECC96624A82B6343159263 /* NSString+HRHash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+HRHash.m"; path = "WebCacheTools/Classes/NSString+HRHash.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		06EB755220F707EBB10BAA69CFB41D21 /* Frameworks */ = {
+		3AAFA0CC2F5983729B1C208A2952B7E8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF650036DF8D0A6A59134357A0DDE181 /* Foundation.framework in Frameworks */,
+				14D3DA28C835C1B38F5ACCD73054D16A /* CoreFoundation.framework in Frameworks */,
+				F3EE8465B94AF4BA4477F4BF1C93CC37 /* Foundation.framework in Frameworks */,
+				412D4427909F8B55FB84D806E202D8B4 /* QuartzCore.framework in Frameworks */,
+				73F72778DD30D7E2623240276EE5E801 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1B1F115F42211364FADE015CD65D2CE4 /* Frameworks */ = {
+		7E8DDF4793E1E568193B04A1ABDB4A20 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				215574347B7C79CE98A0CB03045FFCBF /* Foundation.framework in Frameworks */,
+				80EC11B24E68281401DF847A6541FAC2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E55BA3F26665F0442C182D396F769F72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DFC6B83235856E8E1155830802C5950 /* Foundation.framework in Frameworks */,
+				6FB8FEF2183AB819D5A790219410B50C /* YYCache.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16BA5258E75439D4494B5B89A942DF5E /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				556B954DC735A3A4196CFEFFB254F19E /* WebCacheTools */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		25C1C65C6DF6E6DB191962B2EE521502 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				47F21E9223DC1C937359E6F4A172E4FF /* Pods-WebCacheTools_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		33EB53BE6923C4DF5EABFAF0A06D2794 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B7E9C40980F046362D9BE6907EA946F /* YYCache.framework */,
+				5FC21BAEC6F55072C9E1F31E82E06603 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		364EF3A70BC2C8BC3A3217DE1BE8E36B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F498FB9DCD4BEA6809B2442CB3E9001 /* Info.plist */,
+				814EB9DA1AFD7854041D16460BB4E199 /* YYCache.modulemap */,
+				B3688E5AB54D3108DCF68F0B474724A8 /* YYCache.xcconfig */,
+				7A5800C9002A4514B1E633A83B5CE0E0 /* YYCache-dummy.m */,
+				290614B10D8467B4A742BB849AC02DAC /* YYCache-prefix.pch */,
+				9E535E206512EAF9C00597574A2773CD /* YYCache-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YYCache";
 			sourceTree = "<group>";
 		};
 		47F21E9223DC1C937359E6F4A172E4FF /* Pods-WebCacheTools_Tests */ = {
@@ -124,137 +203,201 @@
 			path = "Target Support Files/Pods-WebCacheTools_Tests";
 			sourceTree = "<group>";
 		};
-		556B954DC735A3A4196CFEFFB254F19E /* WebCacheTools */ = {
+		509BD38D22F80E09EB671921A70C6545 /* WebCacheTools */ = {
 			isa = PBXGroup;
 			children = (
-				F1CDB8A6990BD05DC4EBF4C2964D1FC8 /* HRCacheUrlProtocol.h */,
-				F3B5F79CA84DE362E2D7B6DB7B00CD76 /* HRCacheUrlProtocol.m */,
-				D321C840D6D8A9CF9D27615F523AF348 /* HRLoadHTMLCache.h */,
-				2495D4AA260AD50A508D251AAE529513 /* HRLoadHTMLCache.m */,
-				45DF68E7FE29341ACB695C9BDED981D8 /* HRWebCacheModel.h */,
-				CE10FB55ABEEEE3CA6C70D3B22729C47 /* HRWebCacheModel.m */,
-				A3DD1E06BD651DEBDAEE9F0ED00829E6 /* HRWebCacheTools.h */,
-				370266B38B264C2551662A8AC1FDB372 /* NSURLRequest+HRExtension.h */,
-				EFCF7CAA85225BC0C47379A5153AEA51 /* NSURLRequest+HRExtension.m */,
-				CEFA417CF68444EAF86A0D4638492F19 /* Reachability.h */,
-				71F0EEFDFEBE7AF72BC89E1CF04106F5 /* Reachability.m */,
-				A60D934638AEE02ADAEDCDA4F0FB9937 /* Support Files */,
+				D6A827B190EC6967188DF1AE1D34C676 /* HRCacheUrlProtocol.h */,
+				088D00A562D620C6218C62D55DC42CE3 /* HRCacheUrlProtocol.m */,
+				4369FDD2B191F6018706A04C1BB721B1 /* HRLoadHTMLCache.h */,
+				6B803B48657EDFDFDF5B918689130083 /* HRLoadHTMLCache.m */,
+				3F9DC9E6169CE1F69BC3D6448D14612C /* HRWebCacheModel.h */,
+				6099243AE9FACD4D9B7332D0C203C62A /* HRWebCacheModel.m */,
+				9808C771B33A77CD984B50F272F33B11 /* HRWebCacheTools.h */,
+				8E9874138BCB67E12027925D4A054274 /* NSString+HRHash.h */,
+				F289546C29ECC96624A82B6343159263 /* NSString+HRHash.m */,
+				8053AC446A26600274ACB248ABF3E3CA /* NSURLRequest+HRExtension.h */,
+				6F84326F9269B029CFA7F6207963EB22 /* NSURLRequest+HRExtension.m */,
+				A8E5190960A8D0F1B38E1436EA14F954 /* Reachability.h */,
+				4E036845EDC6BBF4F3D8DE9029CA7973 /* Reachability.m */,
+				C17FD687748DA2A5D0153195305212F2 /* Support Files */,
 			);
 			name = WebCacheTools;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		571A4B44DC186ABBFAAE3325696A0B95 /* YYCache */ = {
+			isa = PBXGroup;
+			children = (
+				D955EA0474FAB14CF40489AA5C290631 /* YYCache.h */,
+				8AC79E98BADBA7060313928020A42425 /* YYCache.m */,
+				EFC088DC58AF1F9F9F88E9679D38F25C /* YYDiskCache.h */,
+				504BC139CB964FFAC35497DB7C9ADE2E /* YYDiskCache.m */,
+				E87D5A541B5CB749E15C4FF3BA8A6768 /* YYKVStorage.h */,
+				4668CA8D42AB6794BFDE72B702FB23D5 /* YYKVStorage.m */,
+				16E7AAF0BA935EB5D7D6E568B531C85C /* YYMemoryCache.h */,
+				3F39EF79C126DC053F1F592787DFD4C0 /* YYMemoryCache.m */,
+				364EF3A70BC2C8BC3A3217DE1BE8E36B /* Support Files */,
+			);
+			name = YYCache;
+			path = YYCache;
+			sourceTree = "<group>";
+		};
+		5FC21BAEC6F55072C9E1F31E82E06603 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7FF4FA85B7646FBA639E62E6DFC564A9 /* CoreFoundation.framework */,
+				5C444328FC2F73CDDFDF400B99763260 /* Foundation.framework */,
+				0655627B063C6DA74336147225EF8861 /* QuartzCore.framework */,
+				0D607BE002C885AC3A1DEA6A1B3BF0E7 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		646345F0DF678C68C8B49C37153ACCC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2561B53BC56CC79F9F48BD9227F665BE /* Pods_WebCacheTools_Tests.framework */,
+				9FF611DEC6EC25B711E9DFD381AFA1E5 /* WebCacheTools.framework */,
+				11F25E3453AD65203238748D7DA4073A /* YYCache.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				16BA5258E75439D4494B5B89A942DF5E /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				9ABFFFADA214B9B099CDC1F156788075 /* Products */,
+				D9A55624590FCB47A4611755B50AFAC4 /* Development Pods */,
+				33EB53BE6923C4DF5EABFAF0A06D2794 /* Frameworks */,
+				E4AEB7158C7FC4C15118BDC14004BB0D /* Pods */,
+				646345F0DF678C68C8B49C37153ACCC8 /* Products */,
 				25C1C65C6DF6E6DB191962B2EE521502 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9ABFFFADA214B9B099CDC1F156788075 /* Products */ = {
+		C17FD687748DA2A5D0153195305212F2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E8E97904FB603E46F16C816C34F4194E /* Pods_WebCacheTools_Tests.framework */,
-				9212C26402EF69E43900366C0C73D715 /* WebCacheTools.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		A60D934638AEE02ADAEDCDA4F0FB9937 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FF142A6BE686B764634BB4E397896074 /* Info.plist */,
-				3BC50DDBBE63D1864E0D80CFC5406750 /* WebCacheTools.modulemap */,
-				D4B0B857C2BD22D6145D84531A53387C /* WebCacheTools.xcconfig */,
-				62307B468BF055756F90258391F00A8C /* WebCacheTools-dummy.m */,
-				924E1C6A226AD143721CF7A8E013CC5D /* WebCacheTools-prefix.pch */,
-				2EA7746D248069C801E19C1C391AA815 /* WebCacheTools-umbrella.h */,
+				8E29DE631F2090A0C976742391B982F3 /* Info.plist */,
+				5C2B4CA5932B28356E3D566F339F80ED /* WebCacheTools.modulemap */,
+				ECA8BF447ABA7A1F6DA574294F26DB09 /* WebCacheTools.xcconfig */,
+				7B148EDA1FA99A05E636426AF0D0C7FA /* WebCacheTools-dummy.m */,
+				3F26DA7219011654ACFFB998716E1EAC /* WebCacheTools-prefix.pch */,
+				CCE5B9E782A6B56DE1B10B21DE7CE49F /* WebCacheTools-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/WebCacheTools";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		D9A55624590FCB47A4611755B50AFAC4 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				509BD38D22F80E09EB671921A70C6545 /* WebCacheTools */,
 			);
-			name = Frameworks;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		E4AEB7158C7FC4C15118BDC14004BB0D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				571A4B44DC186ABBFAAE3325696A0B95 /* YYCache */,
 			);
-			name = iOS;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1F630252C47C2FF6B3FB1AFC637EA33A /* Headers */ = {
+		5B68EE9392F80D26C19D02A188A1DA5D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21F0A2493315A07CB30B16A151D3DE21 /* Pods-WebCacheTools_Tests-umbrella.h in Headers */,
+				06C69C4213476739D11B7345455D2067 /* Pods-WebCacheTools_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3B1C8485B2C44ED9CE40BECCCE619CE /* Headers */ = {
+		A1041B40B905DB2B2D447BC831FD57F0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				752062033D3B743764666E3084E24A5B /* HRCacheUrlProtocol.h in Headers */,
-				FC40B56E5D427A99953F37865DBEFE55 /* HRLoadHTMLCache.h in Headers */,
-				C3F5AC633E8A3A6D11F466CF7086A4D3 /* HRWebCacheModel.h in Headers */,
-				6DCE0CF84A45FF7DF5C1AF2C01302B45 /* HRWebCacheTools.h in Headers */,
-				28E121B1FEC43F57BC0A699AA5054676 /* NSURLRequest+HRExtension.h in Headers */,
-				69DCA9F2D0614C36A22C2BAE58B39B69 /* Reachability.h in Headers */,
-				E9513CAD317F34CE59E842D72EEB27EB /* WebCacheTools-umbrella.h in Headers */,
+				9D58CFF9A94ACC25D4282AD5E565C62C /* YYCache-umbrella.h in Headers */,
+				AA34009EAE77909EE7DFF0CC0F7A3612 /* YYCache.h in Headers */,
+				0CA19757677EB2F3BB8BFFC88A364888 /* YYDiskCache.h in Headers */,
+				F1253CF61531195C9549A16364C796A8 /* YYKVStorage.h in Headers */,
+				D734CEB9780733AC359194C0A77BC16E /* YYMemoryCache.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC8C0B5B6A0DFDA288A5171ACC08C147 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD2625744DCD535C707E9D2B54530B54 /* HRCacheUrlProtocol.h in Headers */,
+				26C90952596DDBF5B91F0E500B764286 /* HRLoadHTMLCache.h in Headers */,
+				2753F497F906A44845CA50558921DB51 /* HRWebCacheModel.h in Headers */,
+				CA6AD0D930297B0DA85898CA9FFCE5FE /* HRWebCacheTools.h in Headers */,
+				A2DAC22ECCA4F5EB3A773F360D368F1D /* NSString+HRHash.h in Headers */,
+				15688AEF48B7F86F922408E0DC5F153C /* NSURLRequest+HRExtension.h in Headers */,
+				2720E6087A03CFF3AC5BCBD616F4ABFD /* Reachability.h in Headers */,
+				6A882C70F432EA5C2028D7D66BB0FCF4 /* WebCacheTools-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		487ECAD52EDCB88D029C4C360030B111 /* WebCacheTools */ = {
+		67E48A31DA8BD32DE791E01708ED6225 /* WebCacheTools */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D6D9EC653EF75911D5A49F56D24E9451 /* Build configuration list for PBXNativeTarget "WebCacheTools" */;
+			buildConfigurationList = B66F402B952DE47096809AC419E4C062 /* Build configuration list for PBXNativeTarget "WebCacheTools" */;
 			buildPhases = (
-				67B1A0AF8E4BA234F9A0550D48F5621E /* Sources */,
-				1B1F115F42211364FADE015CD65D2CE4 /* Frameworks */,
-				F3B1C8485B2C44ED9CE40BECCCE619CE /* Headers */,
+				DF18556B141A64A9E5F64F8235143A83 /* Sources */,
+				E55BA3F26665F0442C182D396F769F72 /* Frameworks */,
+				CC8C0B5B6A0DFDA288A5171ACC08C147 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4CDFF78282017B1E549B6EFCB55C6D22 /* PBXTargetDependency */,
 			);
 			name = WebCacheTools;
 			productName = WebCacheTools;
-			productReference = 9212C26402EF69E43900366C0C73D715 /* WebCacheTools.framework */;
+			productReference = 9FF611DEC6EC25B711E9DFD381AFA1E5 /* WebCacheTools.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9216E762B7238F18A5D1E258DADF8452 /* Pods-WebCacheTools_Tests */ = {
+		97048573A64D1761519388ADC50CD959 /* YYCache */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 779C4A6BA54AEB1DC2FC3052260FCBCF /* Build configuration list for PBXNativeTarget "Pods-WebCacheTools_Tests" */;
+			buildConfigurationList = C22BF14D38E08B9B7D00A9AC31755336 /* Build configuration list for PBXNativeTarget "YYCache" */;
 			buildPhases = (
-				670242860F55C59550BFAC0A4D2C28A4 /* Sources */,
-				06EB755220F707EBB10BAA69CFB41D21 /* Frameworks */,
-				1F630252C47C2FF6B3FB1AFC637EA33A /* Headers */,
+				5EB4991034FE2DE32109A9C31EF57E81 /* Sources */,
+				3AAFA0CC2F5983729B1C208A2952B7E8 /* Frameworks */,
+				A1041B40B905DB2B2D447BC831FD57F0 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				52D1621965774E365FABA0BFB8E616DE /* PBXTargetDependency */,
+			);
+			name = YYCache;
+			productName = YYCache;
+			productReference = 11F25E3453AD65203238748D7DA4073A /* YYCache.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FAF9545E178557041C332CDDED05C460 /* Pods-WebCacheTools_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC3279A7EC76F84B251BB313A537DB6E /* Build configuration list for PBXNativeTarget "Pods-WebCacheTools_Tests" */;
+			buildPhases = (
+				54DC9FEC060C6D853A4DAD0CB27EDE3C /* Sources */,
+				7E8DDF4793E1E568193B04A1ABDB4A20 /* Frameworks */,
+				5B68EE9392F80D26C19D02A188A1DA5D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF04E0CDF4F5682A422D31F70F75A0D2 /* PBXTargetDependency */,
+				FFC465A290DEF3FDE235726B785A5B06 /* PBXTargetDependency */,
 			);
 			name = "Pods-WebCacheTools_Tests";
 			productName = "Pods-WebCacheTools_Tests";
-			productReference = E8E97904FB603E46F16C816C34F4194E /* Pods_WebCacheTools_Tests.framework */;
+			productReference = 2561B53BC56CC79F9F48BD9227F665BE /* Pods_WebCacheTools_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -274,46 +417,72 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 9ABFFFADA214B9B099CDC1F156788075 /* Products */;
+			productRefGroup = 646345F0DF678C68C8B49C37153ACCC8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9216E762B7238F18A5D1E258DADF8452 /* Pods-WebCacheTools_Tests */,
-				487ECAD52EDCB88D029C4C360030B111 /* WebCacheTools */,
+				FAF9545E178557041C332CDDED05C460 /* Pods-WebCacheTools_Tests */,
+				67E48A31DA8BD32DE791E01708ED6225 /* WebCacheTools */,
+				97048573A64D1761519388ADC50CD959 /* YYCache */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		670242860F55C59550BFAC0A4D2C28A4 /* Sources */ = {
+		54DC9FEC060C6D853A4DAD0CB27EDE3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E97531E9915F5663EA2B5311A741584F /* Pods-WebCacheTools_Tests-dummy.m in Sources */,
+				0F4AC7F2B541125AC83F78AC699BFD47 /* Pods-WebCacheTools_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67B1A0AF8E4BA234F9A0550D48F5621E /* Sources */ = {
+		5EB4991034FE2DE32109A9C31EF57E81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				468C05B7C235365F4C4557C0A856A6AF /* HRCacheUrlProtocol.m in Sources */,
-				1BE49FEF0CD0F9AFD5EEEB6A0CBC5023 /* HRLoadHTMLCache.m in Sources */,
-				7696616051C09F466E9E2CCE805B4219 /* HRWebCacheModel.m in Sources */,
-				72FBE987E1E97F651BD891D810BED1F7 /* NSURLRequest+HRExtension.m in Sources */,
-				377C89B80C31E9C2FC7C1BC8B19817C3 /* Reachability.m in Sources */,
-				23DFCB052AC983BEA08283614E7678B6 /* WebCacheTools-dummy.m in Sources */,
+				5A246245D693077C943D1566EABA4AE7 /* YYCache-dummy.m in Sources */,
+				3DDA506C3736094F434936539F560CDD /* YYCache.m in Sources */,
+				4D17DCB5496FC391D59329F8FD17DFF5 /* YYDiskCache.m in Sources */,
+				9F24328115D737B7D3A188AE3C45F7CB /* YYKVStorage.m in Sources */,
+				9EAC0E152753E17217155CDC5C695E27 /* YYMemoryCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF18556B141A64A9E5F64F8235143A83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A25602ED417F23839E377BD184C3F665 /* HRCacheUrlProtocol.m in Sources */,
+				3664527901E0DD319B37B4AAF2AA38FC /* HRLoadHTMLCache.m in Sources */,
+				79CC0F18D58295BF56C56476B78EF6B8 /* HRWebCacheModel.m in Sources */,
+				593F49611649E92E0C33E46DCD633EFC /* NSString+HRHash.m in Sources */,
+				99B77B908CCE14F9E381C8F4FB219337 /* NSURLRequest+HRExtension.m in Sources */,
+				73AACA3DE0881A1DAECFA4477155F9A5 /* Reachability.m in Sources */,
+				5BE409A851F7FE5DE8D3A606782103E2 /* WebCacheTools-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		52D1621965774E365FABA0BFB8E616DE /* PBXTargetDependency */ = {
+		4CDFF78282017B1E549B6EFCB55C6D22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYCache;
+			target = 97048573A64D1761519388ADC50CD959 /* YYCache */;
+			targetProxy = FBCCCA478E00DD76A7DA2884009B820B /* PBXContainerItemProxy */;
+		};
+		EF04E0CDF4F5682A422D31F70F75A0D2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WebCacheTools;
-			target = 487ECAD52EDCB88D029C4C360030B111 /* WebCacheTools */;
-			targetProxy = 1467FB4EF60AF059912BE19CFEE5659F /* PBXContainerItemProxy */;
+			target = 67E48A31DA8BD32DE791E01708ED6225 /* WebCacheTools */;
+			targetProxy = 3FECEB737EEFAD817F6C4E3F6E1256CC /* PBXContainerItemProxy */;
+		};
+		FFC465A290DEF3FDE235726B785A5B06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYCache;
+			target = 97048573A64D1761519388ADC50CD959 /* YYCache */;
+			targetProxy = 7F825CD30E39205CEFB31ECD32E1EAF3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -362,30 +531,30 @@
 			};
 			name = Release;
 		};
-		2031B846A7E5462D9BB16D338DC13803 /* Release */ = {
+		39F6171AE664DFDEBECD5DE9C7D29B24 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4B0B857C2BD22D6145D84531A53387C /* WebCacheTools.xcconfig */;
+			baseConfigurationReference = B3688E5AB54D3108DCF68F0B474724A8 /* YYCache.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/WebCacheTools/WebCacheTools-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WebCacheTools/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/YYCache/YYCache-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYCache/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WebCacheTools/WebCacheTools.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = WebCacheTools;
+				MODULEMAP_FILE = "Target Support Files/YYCache/YYCache.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = YYCache;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -393,9 +562,9 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		2D7E15D46DE74BCB97D9FE30FACFFEB0 /* Debug */ = {
+		3A251F837EF179DC3FAC1172CE92C809 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9AB29773449C0E593ED01BEA00EFB6DA /* Pods-WebCacheTools_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -431,9 +600,78 @@
 			};
 			name = Debug;
 		};
-		D3D50970712CDB2F769779F4A7FD558F /* Debug */ = {
+		43FF62B61759D95983BD33A96404BD22 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4B0B857C2BD22D6145D84531A53387C /* WebCacheTools.xcconfig */;
+			baseConfigurationReference = 086DE6ED1B872EE1846D33D561213372 /* Pods-WebCacheTools_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WebCacheTools_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WebCacheTools_Tests/Pods-WebCacheTools_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WebCacheTools_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9CC07587011B45A1CA75ED74731FD570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3688E5AB54D3108DCF68F0B474724A8 /* YYCache.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YYCache/YYCache-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYCache/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YYCache/YYCache.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = YYCache;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E6480F4580D5F1EA45CC3E72FE03229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECA8BF447ABA7A1F6DA574294F26DB09 /* WebCacheTools.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -463,6 +701,39 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		CC2CC4CFE880EDC0A05FD97BE531DF1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECA8BF447ABA7A1F6DA574294F26DB09 /* WebCacheTools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WebCacheTools/WebCacheTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WebCacheTools/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WebCacheTools/WebCacheTools.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WebCacheTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		EED546DBB23FC32035C9BDC4E22B30BD /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -513,42 +784,6 @@
 			};
 			name = Debug;
 		};
-		F0A1D99DBD940957E545636A0F588468 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 086DE6ED1B872EE1846D33D561213372 /* Pods-WebCacheTools_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-WebCacheTools_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WebCacheTools_Tests/Pods-WebCacheTools_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WebCacheTools_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -561,20 +796,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		779C4A6BA54AEB1DC2FC3052260FCBCF /* Build configuration list for PBXNativeTarget "Pods-WebCacheTools_Tests" */ = {
+		B66F402B952DE47096809AC419E4C062 /* Build configuration list for PBXNativeTarget "WebCacheTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2D7E15D46DE74BCB97D9FE30FACFFEB0 /* Debug */,
-				F0A1D99DBD940957E545636A0F588468 /* Release */,
+				9E6480F4580D5F1EA45CC3E72FE03229 /* Debug */,
+				CC2CC4CFE880EDC0A05FD97BE531DF1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D6D9EC653EF75911D5A49F56D24E9451 /* Build configuration list for PBXNativeTarget "WebCacheTools" */ = {
+		C22BF14D38E08B9B7D00A9AC31755336 /* Build configuration list for PBXNativeTarget "YYCache" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3D50970712CDB2F769779F4A7FD558F /* Debug */,
-				2031B846A7E5462D9BB16D338DC13803 /* Release */,
+				39F6171AE664DFDEBECD5DE9C7D29B24 /* Debug */,
+				9CC07587011B45A1CA75ED74731FD570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC3279A7EC76F84B251BB313A537DB6E /* Build configuration list for PBXNativeTarget "Pods-WebCacheTools_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A251F837EF179DC3FAC1172CE92C809 /* Debug */,
+				43FF62B61759D95983BD33A96404BD22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -226,10 +226,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-WebCacheTools_Tests/Pods-WebCacheTools_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/WebCacheTools/WebCacheTools.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebCacheTools.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

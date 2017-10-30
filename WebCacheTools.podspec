@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
       a web cache tools when you use UIWebview.iOS8+
                        DESC
 
-  s.homepage         = 'https://github.com/zichenJack/WebCacheTools'
+  s.homepage         = 'https://github.com/zichenJack/WebCacheTools.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ytc19930125@gmail.com' => 'yaotiancheng@geekpark.net' }
-  s.source           = { :git => 'https://github.com/zichenJack/WebCacheTools', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/zichenJack/WebCacheTools.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -39,4 +39,6 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'YYCache'
+  s.dependency 'MJExtension'
 end

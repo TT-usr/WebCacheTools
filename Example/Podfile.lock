@@ -1,5 +1,7 @@
 PODS:
-  - WebCacheTools (0.1.0)
+  - WebCacheTools (0.1.0):
+    - YYCache
+  - YYCache (1.0.4)
 
 DEPENDENCIES:
   - WebCacheTools (from `../`)
@@ -9,7 +11,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  WebCacheTools: edab15add81a285ece552612bb32190c94bc1a3c
+  WebCacheTools: 14da731774fd4107f2f352f5d9f05a7a5bc3fcbb
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
 PODFILE CHECKSUM: 7b433dc6e9affc1a163b545b564cb25a260ecb71
 

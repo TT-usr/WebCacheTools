@@ -14,6 +14,7 @@
 #import "HRLoadHTMLCache.h"
 #import "HRWebCacheModel.h"
 #import "HRWebCacheTools.h"
+#import "NSString+HRHash.h"
 #import "NSURLRequest+HRExtension.h"
 #import "Reachability.h"
 
